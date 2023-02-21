@@ -6,7 +6,7 @@ int main()
 	int num;
 	char name[100];
 	FILE *file;
-	file = fopen("Desired address","a");
+	file = fopen("Desired address","a"); //a+,w,w+,r,r+ // آرگومان های زیادی می توانید بگذارید 
 	if(file == NULL)
 	{
 		printf("\nERROR!!");
